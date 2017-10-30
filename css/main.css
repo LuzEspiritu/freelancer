@@ -1,10 +1,10 @@
-/*estilos universal*/
+/*estilos para todos los elementos */
 *{
   box-sizing:border-box; 
   color: white;
 }
 
-/*estilos para los selectores de etiqueta*/
+/*Styles for label selectors*/
 body{
   margin: 0;
   padding: 0;
@@ -12,15 +12,13 @@ body{
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5;
-
-  
 }
 a{
   text-decoration: none;
 }
 ul{
   list-style: none;
-  /*background:green;*/
+ 
 }
 li{
   font-size: 15px;
@@ -28,144 +26,132 @@ li{
   display: inline;
   font-size: 15px;
   font-weight: 700;
-  
 }
+footer div{
+  flex: 1 1 30%;
+}
+/* styles reusable classes*/
 .uppercase{
   text-transform: uppercase;
 }
 
-/*estilos para los selectores de clase*/
-
+/*-----------------------styls para los selectores de clase--------------------------*/
 .principal{
  margin:0;
  padding: 0;
  display: flex;
  flex-flow: column nowrap;
 }
-
+/*----styls header-----*/
 .header{
   height: 705px;
   display: flex;
   flex-flow: column nowrap;
   background:#18bc9c;
 }
-  .menu{
-    padding: 5px;
-    height: 15%;
-    display: flex;
-    font-weight: 700;
-    background: #283E56;
-    align-items: center;
+.menu{
+  padding: 5px;
+  height: 15%;
+  display: flex;
+  font-weight: 700;
+  background: #283E56;
+  align-items: center;
   }
-    .marca{
-      padding: 5px;
-      /*background: red;*/
-      flex: 2 1 auto;    
-      font-weight: 700;
-    }
-    .nav{
-      /*background:orange;*/
-      flex: 3 1 auto; 
-      font-weight: 700; 
-    }
-  .portada{
-    height: 85%;
-    /*background:#2318bc;*/
-    text-align: center;
+.marca{
+  padding: 5px;
+  flex: 2 1 auto;    
+  font-weight: 700;
   }
-  .profile{
-    height: 45%;
-    /*background: blueviolet;*/
-    margin-top:5%;
+.nav{
+  flex: 3 1 auto; 
+  font-weight: 700; 
+  }
+.portada{
+  height: 85%;
+  text-align: center;
+  }
+.profile{
+  height: 45%;
+  margin-top:5%;
    }
   .intro{
    width: 100%;
    height: 55%;
   }
-   .intro-name{
-     /*outline: 1px solid orange;*/
-     font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-     display: block;
-     margin: 2% auto;
-     width: 70%;
-     font-size: 60px;
-     font-weight: 700;
-     }
-   .intro-name::after{
-    content: '';
-   /* background-color: red;*/
-    height:2px;
-    width: 40%;
-    display: block;
-    position: relative;
-    left:15%;
-   }
-   .skills{
-     display: block;
-     margin:auto;
-     /*background:green;*/
-     width:70%;
-     font-size: 25px;
-     font-weight: 400;
-   }
-
+.intro-name{
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  display: block;
+  margin: 2% auto;
+  width: 70%;
+  font-size: 60px;
+  font-weight: 700;
+  }
+.intro-name::after{
+ content: '';
+ height:2px;
+ width: 40%;
+ display: block;
+ position: relative;
+ left:15%;
+  }
+.skills{
+  display: block;
+  margin:auto;
+  width:70%;
+  font-size: 25px;
+  font-weight: 400;
+  }
+/*----section portfolio-----*/  
 .section-portfolio{
  display: flex;
  flex-flow: column nowrap;
  height: 880px;
  background:white;
 }
-  .titulo-portafolio{
-    margin-top:0;
-    height: 25%;
-    /*background:red;*/
+.titulo-portafolio{
+  margin-top:0;
+  height: 25%;
   }
-  .imagen-portafolio{
-    margin:auto;
-    width: 90%;
-    height: 75%;
-    /*background:black;*/
-    flex: 1 1 auto;
-    display: flex;
-    flex-flow: row wrap;
-  }
-    .figure{
-      width:350px;
-      height:254px;
-      margin:10px;
-      background: #155263;
-      flex: 1 1 30%;
-    }
-  img{
-    max-width: 100%;
-    vertical-align: middle;
-    border-style: none;
-  }
-
-.section-About{
+.imagen-portafolio{
+ margin:auto;
+ width: 90%;
+ height: 75%;
+ flex: 1 1 auto;
+ display: flex;
+ flex-flow: row wrap;
+ }
+.figure{
+  width:350px;
+  height:254px;
+  margin:10px;
+  background: #155263;
+  flex: 1 1 30%;
+}
+img{
+max-width: 100%;
+vertical-align: middle;
+border-style: none;
+}
+/*---section About----*/
+ .section-About{
   width: 100%;
   height: 575px;
   background: #18bc9c;
 }
-  .About{
-    margin: auto;
-    width: 60%;
-    height: 90%;
-    /*background: red; */
+.About{
+  margin: auto;
+  width: 60%;
+  height: 90%;
   }
-   
-   .information{
-    margin-left:10%;
-    display: inline-block;
-    width: 30%;
-   }
+.information{
+  margin-left:10%;
+  display: inline-block;
+  width: 30%;
+  }
+/*section footer*/  
 .footer{
   padding: 10px;
   display: flex;
   flex-flow: row wrap;
    background: #000;
 }
-  footer div{
-       background:yellow;
-       flex: 1 1 30%;
-    }
