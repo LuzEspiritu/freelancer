@@ -1,4 +1,4 @@
-# Reto Freelancer
+## Reto Freelancer
 
 Para completar este reto, he seguido el siguiente flujo de trabajo.
 
@@ -15,3 +15,7 @@ Para el desarrollo del reto estoy usando la propiedad **display: flex**
   
 ## Sitios visitados:
 - https://www.youtube.com/watch?v=6xfhD0t5IdU
+
+## Algunas herramientas:
+-http://colorhunt.co/
+-http://the-echoplex.net/flexyboxes/
